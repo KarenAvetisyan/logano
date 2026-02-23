@@ -28,10 +28,10 @@
 </head>
 <body>
     <!-- Modal -->
-    <div class="modal" id="my-modal" aria-labelledby="modal-title" aria-modal="true">
+    <div class="modal" id="my-modal">
         <div class="modal-overlay" data-close-modal></div>
         <div class="m-container">
-            <button type="button" class="m-close" data-close-modal aria-label="Закрыть модальное окно"></button>
+            <button type="button" class="m-close" data-close-modal></button>
             <div class="m-content">
                 <form class="_form" action="mail.php" method="POST" autocomplete="off" novalidate>
                     <input type="hidden" name="website" value="">
@@ -41,44 +41,44 @@
                         <h3 id="modal-title">Оставьте онлайн заявку:</h3>
                     </div>
                     <div class="_form-group__label-wrap">
-                        <label class="_form-group__label">
+                        <div class="_form-group__label">
                             <span class="_form-group__holder">Ваше имя</span>
                             <div class="_form-group">
                                 <input type="text" name="name" class="_form-group__input" placeholder="Имя" autocomplete="name">
                             </div>
-                        </label>
-                        <label class="_form-group__label">
+                        </div>
+                        <div class="_form-group__label">
                             <span class="_form-group__holder">Название компании&nbsp;<span aria-label="обязательное поле">*</span></span>
                             <div class="_form-group">
                                 <input type="text" name="company" class="_form-group__input _req" placeholder="Компания" required aria-required="true">
                                 <span class="req__text" role="alert">Обязательное поле</span>
                             </div>
-                        </label>
+                        </div>
                     </div>
                     <div class="_form-group__label-wrap">
-                        <label class="_form-group__label">
+                        <div class="_form-group__label">
                             <span class="_form-group__holder">Ваш E-mail&nbsp;<span aria-label="обязательное поле">*</span></span>
                             <div class="_form-group">
                                 <input type="email" name="email" class="_form-group__input _req _email" placeholder="E-mail" required aria-required="true" autocomplete="email">
                                 <span class="req__text" role="alert">Обязательное поле</span>
                                 <span class="error__text" role="alert">Пожалуйста, укажите корректный email</span>
                             </div>
-                        </label>
-                        <label class="_form-group__label">
+                        </div>
+                        <div class="_form-group__label">
                             <span class="_form-group__holder">Ваш телефон&nbsp;<span aria-label="обязательное поле">*</span></span>
                             <div class="_form-group">
                                 <input type="tel" name="phone" class="_phone phone-mask _req _form-group__input" placeholder="Телефон" required aria-required="true" autocomplete="tel">
                                 <span class="req__text" role="alert">Обязательное поле</span>
                                 <span class="error__text" role="alert">Пожалуйста, укажите корректный номер телефона</span>
                             </div>
-                        </label>
+                        </div>
                     </div>
-                    <label class="_form-group__label">
+                    <div class="_form-group__label">
                         <span class="_form-group__holder">Ваше сообщение</span>
                         <div class="_form-group">
                             <textarea name="message" placeholder="Сообщение" rows="4"></textarea>
                         </div>
-                    </label>
+                    </div>
                     <div class="_form-group__agree">
                         <label class="_form-group _form-group__agree-label">
                             <input class="_form-group__agree-input _req" type="checkbox" name="agree" required>
@@ -103,7 +103,7 @@
                     <div class="header-details">
                         <address class="_socials-contact">
                             <a href="tel:+74951234567" aria-label="Позвонить нам">+7 (495) 123-45-67</a>
-                            <a href="mailto:zakaz@likvidaciya.com" aria-label="Написать нам">zakaz@likvidaciya.com</a>
+                            <a href="mailto:chistoe-ooo@mail.ru" aria-label="Написать нам">chistoe-ooo@mail.ru</a>
                         </address>
                         <div class="header-details__wrap">
                             <ul class="_socials" aria-label="Социальные сети">
@@ -166,7 +166,7 @@
                 </div>
                 <address class="footer-contact__wrap">
                     <div class="footer-contact__item">Телефон: <a href="tel:+74951234567">+7 (495) 123-45-67</a></div>
-                    <div class="footer-contact__item">Email: <a href="mailto:zakaz@likvidaciya.com">zakaz@likvidaciya.com</a></div>
+                    <div class="footer-contact__item">Email: <a href="mailto:chistoe-ooo@mail.ru">chistoe-ooo@mail.ru</a></div>
                 </address>
                 <div class="footer-social__wrap">
                     <ul class="_socials" aria-label="Мы в социальных сетях">

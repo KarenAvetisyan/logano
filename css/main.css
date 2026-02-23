@@ -432,9 +432,6 @@ address{
   display: inline-block;
   width: 100%;
 }
-._form-group__label:last-of-type{
-  margin-bottom: 0;
-}
 ._form-group__holder{
   margin-bottom: 10px;
   display: inline-block;
